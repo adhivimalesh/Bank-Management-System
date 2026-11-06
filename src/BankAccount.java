@@ -6,7 +6,7 @@ class BankAccount {
     private int accountNumber;
     private double balance;
 
-    private ArrayList<String> transactions = new ArrayList<>();
+     private ArrayList<String> transactions = new ArrayList<>();
 
     BankAccount(String accountHolder, int accountNumber, double balance) {
 
@@ -80,13 +80,14 @@ class BankAccount {
     }
 
     public int getAccountNumber() {
+       
         return accountNumber;
     }
 
     public void displayTransactionHistory() {
 
         System.out.println("\n===== TRANSACTION HISTORY =====");
-        System.out.println("Account Holder: " + accountHolder);
+          System.out.println("Account Holder: " + accountHolder);
         System.out.println("Account Number: " + accountNumber);
 
         if (transactions.isEmpty()) {

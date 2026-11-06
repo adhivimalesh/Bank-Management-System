@@ -8,7 +8,7 @@ public static void main(String[] args) {
     int accountCount = 0;
     BankAccount[] accounts = new BankAccount[100];
 
-    Scanner sc = new Scanner(System.in);
+     Scanner sc = new Scanner(System.in);
 
     boolean step = true;
 
@@ -200,7 +200,7 @@ public static void main(String[] args) {
                 break;
             }
 
-            // TRANSACTION HISTORY
+        
             case 6: {
 
                 if (accountCount == 0) {
@@ -231,7 +231,7 @@ public static void main(String[] args) {
                 break;
             }
 
-            // EXIT
+            
             case 7: {
 
                 System.out.println("Thank You for Using Bank Management System!");
